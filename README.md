@@ -2,8 +2,8 @@
 
 Organization and most of the documenation, including what you read here is
 based on [holmans dotfiles](https://github.com/holman/dotfiles). 
-Some files are more or less based on @holman's, 
-@[mathiasbyneses](https://github.com/mathiasbynens/dotfiles) and others.
+Some files are more or less based on holmans, 
+[mathiasbyneses](https://github.com/mathiasbynens/dotfiles) and others.
 
 
 ## Install
@@ -50,7 +50,7 @@ There's a few special files in the hierarchy.
 
 Most of the actual dotfiles here are things I've collected from loads of 
 places but the idea of the organization and most code to orchestrate this
-is the great work of [Zach holman](https://github.com/holman) and his 
+is the great work of [Zach Holman](https://github.com/holman) and his 
 excellent [dotfiles repository](https://github.com/holman/dotfiles). I've
 also used themes and tweaks from [Robby Russells](https://github.com/robbyrussell)
 excellent [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)-project.
