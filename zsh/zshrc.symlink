@@ -1,22 +1,11 @@
 # shortcut to this dotfiles path is $ZSH
 export ZSH=$HOME/.dotfiles
 
-# Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
-# Optionally, if you set this to "random", it'll load a random theme each
-# time that oh-my-zsh is loaded.
-ZSH_THEME="terminalparty2"
-
-
-# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git)
 
 # your project folder that we can `c [tab]` to
-export PROJECTS=~/Code
+export PROJECTS=~/Programming
 
-# all of our zsh files
+# load all of our zsh files
 typeset -U config_files
 config_files=($ZSH/**/*.zsh)
 
@@ -38,3 +27,6 @@ if [[ -a ~/.localrc ]]
 then
   source ~/.localrc
 fi
+
+# loading the a theme, this theme is from oh-my-zsh
+source $ZSH/zsh/themes/terminalparty.zsh-theme
